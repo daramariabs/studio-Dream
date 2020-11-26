@@ -6,81 +6,65 @@
 
 body{
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: #ffffff;
+    background-color: #fdf1f1;
 }
 
 .menu{
     width: 100%;
-    height: 40%;
-    float: left;
 
     position: relative;
-    background-color: #faeded;
-    
+    margin: 0;   
 }
 
 .menu img {
-    width: 20%;
-    
-    
+    width: 20%;   
+    padding-top: 10px;
 }
 
 .menu nav ul {
-    width: 80%;
+    width: 60%;
     list-style-type: none;
-    position: absolute;
+    position: fixed;
 
-    top: 0;
+    top: 5px;
     right: 0;
+
+    margin-right: 0;
 }
 
 .menu nav ul li {
     display: inline;
-    
-    float: right;
-
-    overflow: hidden;
+    margin-left: 30px;
 }
 
 .menu ul li a {
+    width: 20%;
     display: inline-block;
     color: #670814;
     font-weight: 700;
     
-   
-    padding: 30px 100px 30px 0;
-    padding-left: 50px;
+    padding: 10px;
+    
     text-decoration: none;  
+
+    border-bottom: solid #670814 2px ;
 }
 
-/*main*/
-main {
-    width: 100%;
-}
-
-main h1 {
-    width: 50%;
-    font-size: 80px;
-
-    color: #670814;
-    font-weight: 400;
-}
-
-main img {
-    width: 90%;
-
+.img-fundo-trasparente {
     position: fixed;
-
     bottom: 0;
     right: 0;
 
+    margin-right: 20px;
+
+    opacity: 0.3;
 }
 
 footer{
     background-color: #670814;
     color: #ffffff;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
 
     text-align: center;
     font-style: italic;
