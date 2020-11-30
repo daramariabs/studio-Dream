@@ -1,5 +1,6 @@
 main {
     width: 100%;
+    position: absolute;
 }
 
 main h1 {
@@ -9,6 +10,7 @@ main h1 {
     color: #670814;
     font-weight: 400;
 
+    margin-top: 70px;
     margin-left: 10px;
 }
 
