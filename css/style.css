@@ -16,6 +16,7 @@ body{
 .menu img {
     width: 20%;   
     padding-top: 10px;
+    position: fixed;
 }
 
 .menu nav ul {
@@ -79,6 +80,8 @@ a {
     margin-right: 20px;
 
     opacity: 0.3;
+
+    z-index: -10;
 }
 
 footer{

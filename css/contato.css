@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-contato {
+    width: 90%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.158);
+    position: absolute;
+    margin: 120px 0 100px 70px;
+
+    z-index: 0;
+}
+
+.contato {
+    float: left;
+    width: 50%;  
+    
+}
+
+.endereco-contato {
+    padding: 90px 0 70px 90px;
+    color:#670814;  
+}
+
+.endereco-contato h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.endereco-contato address {
+    width: 55%;
+    font-size: 12px; 
+}
+
+.icon-contato {
+    height: 400px;
+    list-style-type: none;
+    padding: 30px 0 30px 40px;
+
+    border-left: solid black 1px;
+}
+
+.icon-contato a {
+    width: 100%;
+    border: none;
+}
+
+.icon-contato p {
+    margin: 15px;
+    padding-left: 40px;
+}
+
+.icon-contato a img {
+    width: 10%;
+    float: left;
+}
