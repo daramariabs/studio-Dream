@@ -7,6 +7,11 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #fdf1f1;
+    z-index: -10;
+}
+
+main {
+    z-index: -10;
 }
 
 .menu{
@@ -43,6 +48,10 @@ a {
     padding: 10px;
     text-decoration: none;  
     border-bottom: solid #670814 2px ;
+}
+
+a:hover {
+    border-bottom: solid #ffffff 2px;
 }
 
 /*MENU SUSPENSO*/
