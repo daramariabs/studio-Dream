@@ -1,2 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.container-instrumentos {
+    width: 90%;
+    height: 500px;
+    color: #670814;
+    background-color: rgba(253, 204, 204, 0.829);
+    
+
+    top: 20px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+form {
+    width: 50%;
+    position: relative;
+    margin: auto;
+}
 
