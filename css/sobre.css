@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-sobre {
+    width: 90%;
+    height: 550px;
+    color: #670814;
+    background-color: rgba(255, 255, 255, 0.158);
+    
+
+    top: 20px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-sobre h1 {
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+
+.box {
+    width: 50%;
+    float: left;
+    font-size: 25px;
+    
+}
+
+
+
+
