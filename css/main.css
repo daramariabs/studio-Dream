@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 510px;
+    position: relative;
+    
+    color: #670814;
+    overflow: hidden;
+    z-index: 0;
+    /* border: 5px solid black;   */
+}
+
+.img-fundo-trasparente {
+    background-image: url('/image/background.png');
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    margin-right: 20px;
+
+    opacity: 0.3;
+
+    z-index: -10;
+}

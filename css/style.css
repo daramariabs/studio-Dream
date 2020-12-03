@@ -9,10 +9,6 @@ body{
     background-color: #fdf1f1;
 }
 
-main {
-    z-index: -10;
-}
-
 .menu{
     width: 100%; 
 }
@@ -79,17 +75,6 @@ main {
     display: block;
   }
   
-.img-fundo-trasparente {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-
-    margin-right: 20px;
-
-    opacity: 0.3;
-
-    z-index: -10;
-}
 
 footer{
     background-color: #670814;
