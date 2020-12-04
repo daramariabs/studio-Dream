@@ -18,10 +18,10 @@
                 <li class="dropdown">
                  <a href="javascript:void(0)" class="dropbtn">Instrumentos</a>
                  <div class="dropdown-content">
-                   <a href="/instrumentos.html" >Bateria</a>
-                   <a href="#" >Guitarra </a>
-                   <a href="#" >Violão</a>
-                   <a href="#" >Piano</a>
+                   <a href="/ins-bateria.html" id="ins01">Bateria</a>
+                   <a href="/ins-guitarra.html" id="ins02" >Guitarra </a>
+                   <a href="/ins-violao.html" id="ins03" >Violão</a>
+                   <a href="/ins-piano.html" id="ins04" >Piano</a>
                  </div> 
                 </li>
                 <li><a href="contato.html">Contato</a></li>
@@ -32,15 +32,15 @@
 
     <main>
         <div class="container-instrumentos">
-            <h1>Instrumentos</h1>
+            <h1 id="aulas" >Aulas de violão</h1>
             <form action="">
                 <label for="semana"> Dias da semana:</label><br>
                 <input type="checkbox" name="dia-semana1" id="dia-semana1">
-                <label for="dia-semana1">Segunda-feira</label>
+                <label for="dia-semana1">Terça-feira</label>
                 <input type="checkbox" name="dia-semana2" id="dia-semana2">
                 <label for="dia-semana2">Quarta-feira</label>
                 <input type="checkbox" name="dia-semana2" id="dia-semana2">
-                <label for="dia-semana2">Sexta-feira</label><br>
+                <label for="dia-semana2">Quinta-feira</label><br>
 
                 <label for="horario">Horarios disponíveis:</label><br>
                 <input type="checkbox" name="horario1" id="horario1">
@@ -51,10 +51,10 @@
                 <h2>Dados pessoais:</h2>
                 <label for="nome">Nome e sobrenome:</label><br>
                 <input type="text"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" name="email" id="email"><br>
+                <label for="email" >Email:</label><br>
+                <input type="email" name="email" id="email" placeholder="email@example.com"><br>
                 <label for="telefone">Telefone: </label><br>
-                <input type="number" name="telefone" id="telefone">
+                <input type="number" name="telefone" id="telefone" placeholder="(xx) xxxx-xxxx">
 
                 <input type="submit" value="Enviar">
             </form>
@@ -92,5 +92,6 @@
        </div>
        
    </footer>
+   <script src="./js/form.js"></script>
 </body>
 </html>

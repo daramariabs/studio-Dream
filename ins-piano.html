@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/instrumentos.css">
     <link rel="icon" href="./image/logo.png">
-    <title>Contato</title>
+    <title>Instrumentos</title>
 </head>
 <body>
     <header class="menu">
@@ -29,51 +29,44 @@
             </ul>
         </nav>
     </header> 
-    
+
     <main>
-        <div class="container-contato">
-            <div class="contato endereco-contato">
-                <h1>Studo de música Dream</h1>
-                <address>
-                    3b Ellis Ave Alexandria , NSW , 2015 Austrália  
-                </address>
-            </div>
-    
-            <ul class="contato icon-contato lista-menu">
-                <li>
-                    <a href="#">
-                        <img src="./image/whatsapp-icon.png" alt="icon whatsapp">
-                        <p>02 9698 5888</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./image/email-icon.png" alt="icon email">
-                        <p>studio-dream@gmail.com</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./image/instagram-icon.png" alt="icon instagram">
-                        <p>/studio-dream</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./image/facebook-icon.png" alt="icon facebook">
-                        <p>/studio-dream</p>
-                    </a>
-                </li>
-            </ul>
+        <div class="container-instrumentos">
+            <h1 id="aulas" >Aulas de piano</h1>
+            <form action="">
+                <label for="semana"> Dias da semana:</label><br>
+                <input type="checkbox" name="dia-semana1" id="dia-semana1">
+                <label for="dia-semana1">Quarta-feira</label>
+                <input type="checkbox" name="dia-semana2" id="dia-semana2">
+                <label for="dia-semana2">Quinta-feira</label>
+                <input type="checkbox" name="dia-semana2" id="dia-semana2">
+                <label for="dia-semana2">Sexta-feira</label><br>
+
+                <label for="horario">Horarios disponíveis:</label><br>
+                <input type="checkbox" name="horario1" id="horario1">
+                <label for="horario1">15:00 as 18:00</label>
+                <input type="checkbox" name="horario2" id="horario2">
+                <label for="horario2">19:00 as 22:00</label><br>
+
+                <h2>Dados pessoais:</h2>
+                <label for="nome">Nome e sobrenome:</label><br>
+                <input type="text"><br>
+                <label for="email" >Email:</label><br>
+                <input type="email" name="email" id="email" placeholder="email@example.com"><br>
+                <label for="telefone">Telefone: </label><br>
+                <input type="number" name="telefone" id="telefone" placeholder="(xx) xxxx-xxxx">
+
+                <input type="submit" value="Enviar">
+            </form>
 
             <div class="img-fundo-trasparente">
                 <img src="./image/background.png" alt="Imagem de fundo transparente">
             </div>
         </div>
 
-        
+       
     </main>
-    
+   
     <footer>
         <img src="./image/D (2).png" alt="">
        <div>
@@ -99,5 +92,6 @@
        </div>
        
    </footer>
+   <script src="./js/form.js"></script>
 </body>
 </html>
