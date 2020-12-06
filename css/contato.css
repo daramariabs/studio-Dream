@@ -47,6 +47,12 @@
 .icon-contato a {
     width: 100%;
     border: none;
+
+    color: #670814;
+    font-weight: 700;
+    padding: 10px;
+
+    text-decoration: none;
 }
 
 .icon-contato p {
@@ -58,3 +64,4 @@
     width: 10%;
     float: left;
 }
+

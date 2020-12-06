@@ -22,3 +22,7 @@ main {
 
     z-index: -10;
 }
+
+@media screen and (max-width: 600px) {
+    
+}
