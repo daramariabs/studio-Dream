@@ -16,14 +16,9 @@ main {
 }
 
 .img-fundo-trasparente {
-    background-image: url('/image/background.png');
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     right: 0;
-
-    margin-right: 20px;
-
-    opacity: 0.3;
+    opacity: 0.1;
 
     z-index: -10;
 }
