@@ -13,7 +13,11 @@ function validar(){
         alert('Por favor prencha todos os campos')
         telefone.focus()
     }else {
-        
+        enviado()
     }
 
+}
+
+function enviado() {
+    alert('Dados enviados!')
 }
