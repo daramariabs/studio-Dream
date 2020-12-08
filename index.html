@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/index.css">
+    
     <link rel="icon" href="./image/logo.png">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -40,17 +41,41 @@
   
    </main>
    <section class="informacoes">
-      <h2>Bolsas</h2> 
-      <p>Oferecemos bolsas de estudos a alunos devidamente matriculado em escolas publicas e que possuem renda menor que um salario minimo. Para mais informações entre em contato conosco.</p>    
-      <img src="./image/bolsas-img.png" alt=""> 
+            <h2>Bolsas</h2> 
+            <p>Oferecemos bolsas de estudos a alunos devidamente matriculado em escolas públicas e que possuem renda inferior a um salário minimo. Para mais informações entre em contato conosco.</p>    
+            <img src="./image/voluntario-img.png" alt=""> 
    </section>
+
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" class="close">X</a>
+            <h3>Voluntariado</h3>
+            <p>Informe seus dados que entraremos em contato para agendar uma entrevista.</p>
+            <form action="">
+                <label for="nome">Nome e sobrenome :</label><br>
+                <input type="text" id="nome"><br>
+
+                <label for="email" >Email:</label><br>
+                <input type="email" name="email" id="email" placeholder="email@example.com"><br>
+                
+                <label for="telefone">Telefone: </label><br>
+                <input type="number" name="telefone" id="telefone" placeholder="(xx) xxxx-xxxx">
+
+                <input type="submit" value="Enviar" onclick="enviado()">
+            </form>
+        </div>
+    </div>
+    
    <section class="informacoes fundo-claro">
-    <h2>Bolsas</h2> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quo ea laborum, quibusdam beatae nisi voluptatem sit, aperiam architecto ad ipsa soluta perspiciatis. Fuga nesciunt accusamus reiciendis quod dolorum expedita.</p>    
+    <h2>Voluntário</h2> 
+    <p>Você toca algum instrumento e tem muita vontade de compartilhar esse conhecimento? Venha ser voluntario no nosso studio.
+        <a href="#openModal">Clique aqui</a>
+    </p>    
     <img src="./image/bolsas-img.png" alt=""> 
  </section>
+
    <footer>
-    <img src="./image/D (2).png" alt="">
+    <img src="./image/img-footer.png" alt="logo studio dream">
    <div>
     <h3>Desenvolvido por DMBS Tecnologia</h3>
     <ul class="lista-rodape">
@@ -73,7 +98,7 @@
     <p>	&copy; DMBS Tecnologia 2020</p>
    </div>
    
-</footer>
+   </footer>
 
    <script src="./js/estilo.js"></script>
 </body>

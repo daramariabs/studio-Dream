@@ -12,23 +12,29 @@ main h1 {
 }
 
 .fundo {
-    width: 70%;
+    width: 80%;
     position: absolute;
     
     top: 140px;
-    right: 10px;
+    right: 30px;
     
 
     /* border: 5px solid black;  */
 }
 
+
 .informacoes {
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: #670814;
     color: white;
 
     padding: 50px;
+    
+}
+
+.informacoes a {
+    color: #670814;
 }
 
 .informacoes h2 {
@@ -51,7 +57,8 @@ main h1 {
     vertical-align: middle;
 
     border-radius: 5px;
-    opacity: 0.8;
+    opacity: 0.7;
+    
 }
 
 .informacoes img:hover {
@@ -63,6 +70,68 @@ main h1 {
     background-color: #fdf1f1;
     color: #670814;
 }
+
+/* formulario */
+
+form {
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    border: 1.5px solid rgba(0, 0, 0, 0.247); 
+
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 10px;
+
+}
+
+form h3 {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 12px;
+    font-style: italic;
+
+    margin-bottom: 50px;
+    /* border: 5px solid black; */
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;  
+    border: 1.5px solid rgba(0, 0, 0, 0.301);
+}
+
+
+input[type=text], input[type=email] {
+    width: 80%;
+}
+
+
+input[type=submit]{
+    width: 20%;
+    position: absolute;
+    right: 50px;
+
+    padding: 10px;
+
+    background-color: #670814;
+    color: white;
+    font-size: 12px;
+
+    border-radius: 10px;
+    border: none;
+    
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: 0.9;
+}
+
 
 
 @media screen and (max-width: 600px) {

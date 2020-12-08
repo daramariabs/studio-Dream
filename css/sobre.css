@@ -6,11 +6,10 @@
 .container-sobre {
     width: 80%;
     
-
     top: 20px;
     position: relative;
     margin: auto;
-    overflow: hidden;
+    
 } 
 
 .container-sobre h1 {
@@ -20,12 +19,54 @@
 }
 
 .box {
-    width: 50%;
-    float: left;
-    font-size: 25px;
+    width: 100%;
+    
+    font-size: 20px;
+    text-align: justify;
     
     padding: 0 20px; 
 }
+
+.lista-img-sobre {
+    width: 100%;
+    display: flex;
+
+    margin-top: 50px;
+    
+}
+
+.lista-img-sobre li {
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+
+    list-style-type: none;
+    background-color: white;
+    padding: 20px 10px;
+}
+
+.lista-img-sobre img {
+    width: 100%;
+    opacity: 0.6;
+    margin: auto;
+}
+
+.lista-img-sobre img:hover {
+    opacity: 1;
+}
+
+.modalDialog div {
+    width: 620px;
+    padding: 0;
+    background: rgba(241, 159, 159, 0);
+    
+}
+
+.modalDialog img {
+    width: 600px;
+    margin: auto;
+}
+
 
 
 
