@@ -11,6 +11,7 @@ body{
 
 .menu{
     width: 100%; 
+
 }
 
 .menu img {
@@ -21,7 +22,7 @@ body{
 .menu nav ul {
     width: 60%;
     list-style-type: none;
-    position: fixed;
+    position: absolute;
     top: 5px;
     right: 10px;
 
@@ -44,7 +45,9 @@ body{
     border-bottom: solid #670814 2px ;
 }
 
-.lista-menu a:hover {
+
+
+.lista-menu .borda-branca:hover {
     border-bottom: solid #ffffff 2px;
 }
 
@@ -53,9 +56,9 @@ body{
     width: 20%;
     display: none;
     position: absolute;
-    left: 230px;
+    left: 225px;
     
-    background-color: rgba(255, 255, 255, 0.747);
+    background-color: rgba(255, 255, 255, 1);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;

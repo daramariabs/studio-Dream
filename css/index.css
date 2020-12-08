@@ -22,6 +22,49 @@ main h1 {
     /* border: 5px solid black;  */
 }
 
+.informacoes {
+    width: 100%;
+    height: 400px;
+    background-color: #670814;
+    color: white;
+
+    padding: 50px;
+}
+
+.informacoes h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.informacoes p {
+    width: 70%;
+    float: left;
+    margin-top: 80px;
+    padding-right: 20px;
+
+    text-align: justify;
+    
+}
+
+.informacoes img {
+    width: 30%;
+    vertical-align: middle;
+
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.informacoes img:hover {
+    opacity: 1;
+}
+
+
+.fundo-claro {
+    background-color: #fdf1f1;
+    color: #670814;
+}
+
+
 @media screen and (max-width: 600px) {
     main h1 {
         width: 80%;

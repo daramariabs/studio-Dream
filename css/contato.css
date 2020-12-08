@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-/* .container-contato {
-    width: 90%;
+ .container-contato {
+     display: flex;
+     flex-direction: row;
+     padding-left: 50px;
+    /* width: 90%;
     
     color: #670814;
     background-color: rgba(255, 255, 255, 0.158);
@@ -13,11 +16,10 @@
     top: 20px;
     position: relative;
     margin: auto;
-    border: 5px solid black;
-} */
+    border: 5px solid black; */
+} 
 
 .contato {
-    float: left;
     width: 50%;  
 }
 
@@ -56,12 +58,16 @@
 }
 
 .icon-contato p {
-    margin: 15px;
-    padding-left: 40px;
+    margin: 20px;
+    padding-left: 50px;
+
+    text-align: justify;
+    ;
 }
 
 .icon-contato a img {
     width: 10%;
     float: left;
+    
 }
 
