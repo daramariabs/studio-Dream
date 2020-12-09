@@ -224,8 +224,9 @@ footer p {
         position: absolute;
         
         left: 1px;
-        min-width: 450px;
-      
+        background-color: rgba(255, 255, 255, 1);
+        min-width: 315px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
       }
 
