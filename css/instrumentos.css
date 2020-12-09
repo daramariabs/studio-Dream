@@ -109,13 +109,10 @@ input[type=submit]:hover {
         width: 90%;
     }
     
-    input[type=number] {
-        width: 30%;
-    }
     
     input[type=submit]{
         width: 30%;
-        padding: 8px;
+        padding: 10px;
         font-size: 14px;
 
         left: 200px;
