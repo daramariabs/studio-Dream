@@ -76,7 +76,47 @@
 
 .icon-contato a img {
     width: 10%;
-    
-    
 }
 
+/* mobile  */
+@media screen and (max-width: 600px) {
+    .container-contato {
+        margin-top: 20px;
+        padding-top: 20px;
+        display: block;
+    }
+
+    .contato {
+        width: 100%;  
+    }
+
+    .endereco-contato {
+        padding: 30px;
+        color:#670814;  
+    }
+    
+    .endereco-contato h1{
+        font-size: 40px;
+    }
+
+    .endereco-contato address {
+        width: 90%;
+        font-size: 12px; 
+    }
+
+    .icon-contato {
+        height: 300px;
+        border: none;
+        padding: 10px 20px;
+    }
+
+    .icon-contato p {
+        left: 20px;
+        bottom: 30px;
+    }
+    
+    .icon-contato a img {
+        width: 15%;
+    }
+
+}

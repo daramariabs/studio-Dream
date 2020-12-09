@@ -85,4 +85,36 @@ input[type=submit]:hover {
     opacity: 0.9;
 }
 
+/* mobile */
 
+@media screen and (max-width: 600px){
+    .container-instrumentos h1 {
+        margin-top: 20px;
+    }
+
+    form {
+        width: 90%;
+        padding: 30px 10px 10px 10px;
+    }
+
+    label, h2 {
+        font-size: 14px;
+    }
+
+    input[type=checkbox]{
+        margin: 14px; 
+    }
+    
+    input[type=text], input[type=email] {
+        width: 90%;
+    }
+    
+    
+    input[type=submit]{
+        width: 30%;
+        padding: 10px;
+        font-size: 14px;
+
+        left: 200px;
+    }
+}
